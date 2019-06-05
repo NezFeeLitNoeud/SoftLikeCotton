@@ -1,0 +1,155 @@
+body {
+background-color: #fef8f2;
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+.container {
+	/*border: 1px red solid;*/
+	width: 100%;
+	display: flex;
+	height: 480px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+footer {
+width: 100%;
+height: 128px;
+background-color: #686868;
+position: relative
+}
+
+#footer{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
+.left-box, 
+.right-box {
+/*border: 1px black solid;*/
+width: 20%;
+height: 300Px;
+margin-left: 30px;
+border-radius: 10px;
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+img{
+	height: 70%;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px black solid;
+	box-shadow: 10px 10px 10px grey;
+}
+
+img:hover {
+	height: 67%;
+	width: 97%;
+	border-radius: 10px;
+	border: 1px black solid;
+	box-shadow: 10px 10px 5px grey;
+}
+
+@media screen and (max-width: 1080px){
+
+	img {
+					height: 60%;
+	}
+
+	img:hover {
+	height: 57%;
+	width: 97%;
+	border-radius: 10px;
+	border: 1px black solid;
+	box-shadow: 10px 10px 5px grey;
+	}
+
+	.left-box, 
+	.right-box {
+	font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 980px){	
+	img {
+		height: 50%;
+	}
+
+	img:hover {
+	height: 47%;
+	width: 97%;
+	border-radius: 10px;
+	border: 1px black solid;
+	box-shadow: 10px 10px 5px grey;
+	}
+
+	.left-box, 
+	.right-box {
+	font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 810px){
+
+	img {
+		height: 40%;
+	}
+
+	img:hover {
+	height: 37%;
+	width: 97%;
+	border-radius: 10px;
+	border: 1px black solid;
+	box-shadow: 10px 10px 5px grey;
+	}
+
+	.left-box, 
+	.right-box {
+	font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 700px){
+
+	.container {
+	width: 100%;
+	display: inline;
+	height: 480px;
+
+	}
+
+	img {
+		height: 60%;
+	}
+
+	img:hover {
+	height: 57%;
+	width: 97%;
+	border-radius: 10px;
+	border: 1px black solid;
+	box-shadow: 10px 10px 5px grey;
+	}
+
+	.left-box, 
+	.right-box {
+	font-size: 15px;
+	height: 200px;
+	width: 30%;
+	margin: 0 auto;
+	}
+
+	#footer{
+		left: 25%;
+	}
+
+	footer{
+	height: 205px;
+	}
+}
